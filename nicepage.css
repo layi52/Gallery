@@ -37769,7 +37769,7 @@ a.u-link.u-text-hover-grey-90:hover {
 
 
 .u-footer .u-sheet-1 {
-  min-height: 132px;
+  min-height: 131px;
 }
 
 .u-footer .u-text-1 {
@@ -37784,7 +37784,7 @@ a.u-link.u-text-hover-grey-90:hover {
   transition-duration: 0.5s;
   transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
   animation-timing-function: ease;
-  margin: 18px 318px 40px auto;
+  margin: 18px 318px -21px auto;
 }
 
 .u-footer .u-icon-1 {
@@ -37815,6 +37815,11 @@ a.u-link.u-text-hover-grey-90:hover {
 
   .u-footer .u-social-icons-1 {
     margin-right: auto;
+    --animation-custom_in-translate_x: -200px;
+    --animation-custom_in-translate_y: 0px;
+    --animation-custom_in-opacity: 0;
+    --animation-custom_in-rotate: 0deg;
+    --animation-custom_in-scale: 1;
   }
 }
 @media (max-width: 991px) {
